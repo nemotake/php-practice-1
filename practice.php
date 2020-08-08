@@ -8,9 +8,9 @@ echo [7];
 $hello = "Hello" ;
 $name = "タケル";
 $world = "'s World!";
-echo $hello+$name+$world;
+echo $hello,$name,$world;
 $tech_boost="tech";
-$tech_boost=$tech_boost+" boost" ;
+$tech_boost .=" boost" ;
 echo $tech_boost ;
 $calender_2018 = [
   "January" => "1月",
@@ -26,4 +26,4 @@ $calender_2018 = [
   "November" => "11月",
   "December" => "12月"
 ];
-echo calender_2018["December"] ;
+echo $calender_2018["December"] ;
