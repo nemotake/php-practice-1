@@ -27,3 +27,27 @@ $calender_2018 = [
   "December" => "12月"
 ];
 echo $calender_2018["December"] ;
+//php・laravel 03課題はここからです
+$name="根守武尊";
+if ($name=="根守武尊"){
+  echo "私は根守武尊です";
+}else{
+  echo "あなたの名前ではありません";
+}
+$total=0;
+echo $total;
+for($i=1;$i<=10000;$i++){
+  $total +=$i;
+}
+echo $total;
+$fruits=array("りんご","バナナ","オレンジ","いちご","もも");
+foreach($fruits as $fruit){
+  echo "要素は". $fruit;
+}
+$start=1;
+$end = 100;
+for($i=$start; $i<=$end; $i++){
+  if($i % 5 == 0){
+    echo $i;
+  }
+}
